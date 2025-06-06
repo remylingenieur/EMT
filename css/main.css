@@ -1,10 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
 
 * {
-	font-family: Baloo;
+	font-family: 'Roboto', Sans-serif;
 }
+
+body {
+	margin: 0;
+	background-color: #212121;
+    color: #ededed;
+}
+
+h1, h2, header nav ul li a {
+	padding: 0;
+	margin: 0;
+	font-family: 'Baloo', cursive;
+}
+
 h1 {
-	text-align: center;
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
 
 header {
 	position: fixed;
@@ -15,3 +33,56 @@ header {
 	border-bottom: solid #777 2px;
 	text-align: center;
 }
+
+header img, header nav {
+	display: inline-block;
+	vertical-align: top;
+}
+
+header img {
+	width: 200px;
+	transition: ease 0.3s all;
+	padding: 10px;
+}
+
+header img:hover {
+	width: 235px
+}
+
+header img {
+	list-style-type: none;
+	padding: 0;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+header nav ul li a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #ededed;
+	opacity: 0.75;
+    transition: ease 0.3s all;
+}
+
+header nav ul li a:hover {
+	opacity: 1;
+}
+
+main {
+	padding: 90px 0 0 0;
+	max-width: 60%;
+	margin: auto;
+}
+
+section, h1 {
+	padding: 20px 40px
+}
+
+
+section a {
+	color: #ededed;
+}
+
