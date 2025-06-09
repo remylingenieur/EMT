@@ -2,6 +2,7 @@
 
 * {
 	font-family: 'Roboto', Sans-serif;
+	text-align: center;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
     color: #ededed;
 }
 
-h1, h2, header nav ul li a {
+h1, h2, h3, header nav ul li a {
 	padding: 0;
 	margin: 0;
 	font-family: 'Baloo', cursive;
@@ -18,10 +19,24 @@ h1, h2, header nav ul li a {
 
 h1 {
 	font-size: 4em;
+	margin: 2px;
 }
 
 h2 {
 	font-size: 2.5em;
+	margin: 2px;
+}
+ 
+h3 {    
+	font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.90em;
+}
+
+h5 {
+	font-size: 1.90em;
 }
 
 header {
@@ -31,7 +46,6 @@ header {
 	width: 100%;
 	background-color: #212121;
 	border-bottom: solid #777 2px;
-	text-align: center;
 }
 
 header img, header nav {
@@ -63,13 +77,8 @@ header nav ul li a {
 	font-size: 20px;
 	text-decoration: none;
 	color: #ededed;
-	opacity: 0.75;
-    transition: ease 0.3s all;
 }
 
-header nav ul li a:hover {
-	opacity: 1;
-}
 
 main {
 	padding: 90px 0 0 0;
@@ -77,23 +86,16 @@ main {
 	margin: auto;
 }
 
+main img {
+	width: 335px;
+}
+
 section, h1 {
 	padding: 20px 40px
 }
 
-.caricature {
-	float: right;
-	width: 60%;
-	max-width: 400px;
-    min-width: 200px;
-    padding: 20px;
-    opacity: 0.75;
-    transition: ease 0.3s all;
-}
-
-
-.caricature:hover {
-    opacity: 1;
+main section ul {
+	text-decoration: none;
 }
 
 section a {
