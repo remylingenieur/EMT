@@ -99,7 +99,7 @@ main section ul {
 	text-decoration: none;
 }
 
-section a {
+section, a {
 	color: #ededed;
 	text-align: center;
 }
